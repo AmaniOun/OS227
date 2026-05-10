@@ -38,43 +38,95 @@ public class ProcessInfo {
 
     // Getters & Setters
 
-    public int getPid()                          { return pid; }
-    public void setPid(int pid)                  { this.pid = pid; }
+    public int getPid(){
+        return pid; 
+    }
+    public void setPid(int pid){
+        this.pid = pid; 
+    }
 
-    public String getStatus()                    { return status; }
-    public void setStatus(String status)         { this.status = status; }
+    public String getStatus(){
+        return status; 
+    }
+    public void setStatus(String status){
+        this.status = status; 
+    }
 
-    public int getCpuBurst()                     { return cpuBurst; }
-    public void setCpuBurst(int cpuBurst)        { this.cpuBurst = cpuBurst; }
+    public int getCpuBurst(){
+        return cpuBurst; 
+    }
+    public void setCpuBurst(int cpuBurst){
+        this.cpuBurst = cpuBurst; 
+    }
 
-    public int getTimeLeft()                     { return timeLeft; }
-    public void setTimeLeft(int timeLeft)        { this.timeLeft = timeLeft; }
+    public int getTimeLeft(){
+        return timeLeft; 
+    }
+    public void setTimeLeft(int timeLeft){
+        this.timeLeft = timeLeft; 
+    }
 
-    public int getCurrentPriority()              { return currentPriority; }
-    public void setCurrentPriority(int p)        { this.currentPriority = p; }
+    public int getCurrentPriority(){
+        return currentPriority; 
+    }
+    public void setCurrentPriority(int p){
+        this.currentPriority = p; 
+    }
 
-    public int getOriginalPriority()             { return originalPriority; }
+    public int getOriginalPriority(){
+        return originalPriority; 
+    }
 
-    public int getMemorySize()                   { return memorySize; }
+    public int getMemorySize(){
+        return memorySize; 
+    }
 
-    public int getTat()                          { return tat; }
-    public void setTat(int tat)                  { this.tat = tat; }
+    public int getTat(){
+        return tat; 
+    }
+    public void setTat(int tat){
+        this.tat = tat; 
+    }
 
-    public int getWt()                           { return wt; }
-    public void setWt(int wt)                    { this.wt = wt; }
+    public int getWt(){
+        return wt; 
+    }
+    public void setWt(int wt){
+        this.wt = wt; 
+    }
 
-    public int getFirstRun()                     { return firstRun; }
-    public void setFirstRun(int firstRun)        { this.firstRun = firstRun; }
+    public int getFirstRun(){
+        return firstRun; 
+    }
+    public void setFirstRun(int firstRun){
+        this.firstRun = firstRun; 
+    }
 
-    public int getFinishTime()                   { return finishTime; }
-    public void setFinishTime(int finishTime)    { this.finishTime = finishTime; }
+    public int getFinishTime(){
+        return finishTime; 
+    }
+    public void setFinishTime(int finishTime){
+        this.finishTime = finishTime; 
+    }
 
-    public int getAdmittedAt()                   { return admittedAt; }
-    public void setAdmittedAt(int admittedAt)    { this.admittedAt = admittedAt; }
+    public int getAdmittedAt(){
+        return admittedAt; 
+    }
+    public void setAdmittedAt(int admittedAt){
+        this.admittedAt = admittedAt; 
+    }
 
-    public boolean isHungry()                    { return isHungry; }
-    public void setHungry(boolean hungry)        { this.isHungry = hungry; }
+    public boolean isHungry(){
+        return isHungry; 
+    }
+    public void setHungry(boolean hungry){
+        this.isHungry = hungry; 
+    }
 
-    public int getAgingAppliedAt()               { return agingAppliedAt; }
-    public void setAgingAppliedAt(int t)         { this.agingAppliedAt = t; }
+    public int getAgingAppliedAt(){
+        return agingAppliedAt; 
+    }
+    public void setAgingAppliedAt(int t){
+        this.agingAppliedAt = t; 
+    }
 }
